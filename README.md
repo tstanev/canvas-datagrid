@@ -1,11 +1,10 @@
 canvas-datagrid
 ---------------
 
-[Demo](https://tonygermaneri.github.io/canvas-datagrid/tutorials/demo.html) - City of Chicago government employee list.  Thanks to [data.gov](https://www.data.gov/).
+[Demo](https://canvas-datagrid.js.org/demo.html) - City of Chicago government employee list.  Thanks to [data.gov](https://www.data.gov/).
 
-![canvas-datagrid](https://tonygermaneri.github.io/canvas-datagrid/images/datagrid1.png)
+![canvas-datagrid](https://canvas-datagrid.js.org/images/datagrid1.png)
 
-[![Coverage Status](https://coveralls.io/repos/github/TonyGermaneri/canvas-datagrid/badge.svg?branch=master&build=1640)](https://coveralls.io/github/TonyGermaneri/canvas-datagrid?branch=master)
 [![NPM](https://img.shields.io/npm/v/canvas-datagrid.svg)](https://www.npmjs.com/package/canvas-datagrid)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/TonyGermaneri/canvas-datagrid)
@@ -13,7 +12,7 @@ canvas-datagrid
 
 * Works with Firefox, IE11, Edge, Safari and Chrome.
 * Native support for touch devices (phones and tablets).
-* Rich [documentation](https://tonygermaneri.github.io/canvas-datagrid/docs/), [tutorials](https://tonygermaneri.github.io/canvas-datagrid/docs/index.html#tutorials), and [slack support](https://canvas-datagrid.slack.com/).
+* Rich [documentation](https://canvas-datagrid.js.org/), [tutorials](https://canvas-datagrid.js.org/#tutorials), and [slack support](https://canvas-datagrid.slack.com/).
 * Single canvas element, drawn in immediate mode, data size does not impact performance.
 * Support for unlimited rows and columns without paging or loading.
 * Rich API of events, methods and properties using the familiar W3C DOM interface.
@@ -23,25 +22,23 @@ canvas-datagrid
 * Built in and custom styles.
 * W3C Web Component.  Works in all frameworks.
 * Per-user styles, column sizes, row sizes, view preferences and settings using localStorage.
-* Very small file size, no dependencies.
+* Small file size
 
-[Documentation](https://tonygermaneri.github.io/canvas-datagrid/docs/)
+[Documentation](https://canvas-datagrid.js.org/)
 
-[Tutorials](https://tonygermaneri.github.io/canvas-datagrid/docs/index.html#tutorials)
+[Tutorials](https://canvas-datagrid.js.org/#tutorials)
 
 [Slack Support](https://canvas-datagrid.slack.com/) (message author for invite)
 
-[Style Builder](https://tonygermaneri.github.io/canvas-datagrid/tutorials/styleBuilder.html)
+[Style Builder](https://canvas-datagrid.js.org/styleBuilder.html)
 
-[Download latest version (minified)](https://tonygermaneri.github.io/canvas-datagrid/dist/canvas-datagrid.js)
+[Download latest version (minified)](https://canvas-datagrid.js.org/canvas-datagrid.js)
 
-[Tests](https://tonygermaneri.github.io/canvas-datagrid/test/tests.html)
+[Tests](https://canvas-datagrid.js.org/test/tests.html)
 
 [Source Code](https://github.com/TonyGermaneri/canvas-datagrid)
 
-[Latest Test Coverage](https://tonygermaneri.github.io/canvas-datagrid/build/report/lcov-report/index.html)
-
-[Coveralls](https://coveralls.io/github/TonyGermaneri/canvas-datagrid)
+[Latest Test Coverage](https://canvas-datagrid.js.org/build/report/lcov-report/index.html)
 
 Installation
 ------------
@@ -70,7 +67,7 @@ A function will be added to the global scope of the web page called `canvasDatag
 Getting started
 ---------------
 
-Works [with webpack](https://tonygermaneri.github.io/canvas-datagrid/tutorials/amdDemo.html), [without webpack](https://tonygermaneri.github.io/canvas-datagrid/tutorials/demo.html) or as a [web component](https://tonygermaneri.github.io/canvas-datagrid/tutorials/webcomponentDemo.html).
+Works [with webpack](https://canvas-datagrid.js.org/amdDemo.html), [without webpack](https://canvas-datagrid.js.org/demo.html) or as a [web component](https://canvas-datagrid.js.org/webcomponentDemo.html).
 No matter how you load it, `canvasDatagrid` is declared in the global scope.
 
 Canvas-datagrid is a [Web Component](https://www.webcomponents.org/element/TonyGermaneri/canvas-datagrid) when
@@ -96,7 +93,7 @@ Using Web Component
 ```
 <custom-element-demo>
   <template>
-    <script src="https://tonygermaneri.github.io/canvas-datagrid/dist/canvas-datagrid.debug.js"></script>
+    <script src="https://canvas-datagrid.js.org/canvas-datagrid.debug.js"></script>
     <div style="height: 300px;"><next-code-block></next-code-block></div>
   </template>
 </custom-element-demo>
@@ -132,19 +129,19 @@ Using Vue
 More Demos
 ----------
 
-* [Using Vue](https://tonygermaneri.github.io/canvas-datagrid/tutorials/vueExample.html)
+* [Using Vue](https://canvas-datagrid.js.org/vueExample.html)
 
-* [Using Webpack3: AMD](https://tonygermaneri.github.io/canvas-datagrid/tutorials/amdDemo.html)
+* [Using Webpack3: AMD](https://canvas-datagrid.js.org/amdDemo.html)
 
-* [Using React](https://tonygermaneri.github.io/canvas-datagrid/tutorials/reactExample.html)
+* [Using React](https://canvas-datagrid.js.org/reactExample.html)
 
-* [Web component example](https://tonygermaneri.github.io/canvas-datagrid/tutorials/webcomponentDemo.html)
+* [Web component example](https://canvas-datagrid.js.org/webcomponentDemo.html)
 
-* [Loading data with XHR](https://tonygermaneri.github.io/canvas-datagrid/tutorials/demo.html)
+* [Loading data with XHR](https://canvas-datagrid.js.org/demo.html)
 
-* [Sparkline example](https://tonygermaneri.github.io/canvas-datagrid/tutorials/sparklineDemo.html)
+* [Sparkline example](https://canvas-datagrid.js.org/sparklineDemo.html)
 
-* [XHR data paging demo Jeopardy Questions API](https://tonygermaneri.github.io/canvas-datagrid/tutorials/xhrPagingDemo.html)
+* [XHR data paging demo Jeopardy Questions API](https://canvas-datagrid.js.org/xhrPagingDemo.html)
 
 Note about XHR paging demo: Thanks to [jservice](http://jservice.io/) for the use of the free paging API.  You must "load unsafe scripts" or relevant command to allow HTTPS (github) to make XHR requests to HTTP (Jeopardy Questions API).  There is nothing unsafe about this.
 
@@ -157,19 +154,7 @@ To install development dependencies.  Required to build or test.
 
 To build production and debug versions.
 
-    npm run build-all
-
-To build production version.
-
-    npm run build-prd
-
-To build debug version.
-
-    npm run build-dev
-
-To build debug version anytime a file in ./lib changes.
-
-    npm run build-watch
+    npm run build
 
 To build documentation.
 
