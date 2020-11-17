@@ -14,6 +14,7 @@ const productionConfig = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     library: 'canvasDatagrid',
+    libraryTarget: 'umd',
     filename: 'canvas-datagrid.js'
   },
 
@@ -28,6 +29,7 @@ const developmentConfig = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     library: 'canvasDatagrid',
+    libraryTarget: 'umd',
     filename: 'canvas-datagrid.debug.js',
     sourceMapFilename: 'canvas-datagrid.debug.map'
   },
