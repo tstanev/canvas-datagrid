@@ -70,5 +70,9 @@
   },
   "dependencies": {
     "is-printable-key-event": "1.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://art-bobcat.autodesk.com/artifactory/api/npm/autodesk-npm",
+    "access": "public"
   }
 }
